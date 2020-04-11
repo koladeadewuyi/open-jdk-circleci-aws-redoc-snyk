@@ -1,4 +1,4 @@
-FROM circleci/openjdk:14-buster-node-browsers-legacy
+FROM circleci/openjdk:13-buster-node-browsers-legacy
 CMD ["bash"]
 CMD /bin/sh -c sudo apt -y -qq update && sudo apt install -y awscli
 CMD /bin/sh -c sudo apt-get install -y gettext-base
